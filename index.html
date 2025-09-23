@@ -155,7 +155,7 @@ function loadWithNewDate(e) {
 }
 
 	document.getElementById("refresh").addEventListener("click", loadWithNewDate);
-	let now = givenDate()/1000;
+	let now = givenDate();
 	let main = mooninfo(now);
 	let southern = (new URLSearchParams(location.search)).get("south") != null;
 	
