@@ -21,6 +21,9 @@ DSLs:
 * awk
 * [bc](https://en.wikipedia.org/wiki/Bc_(programming_language))
 
+Other:
+* Haskell
+
 These functions take a time as an input (usually in unix epoch seconds or the languages official way of doing time),
 and return the "age" of the moon in radians, such that `(1-cos(x))/2` returns the illuminated fraction of the moons
 surface, this indirection is needed because across a full cycle, the same illuminated percent appears more than once,
